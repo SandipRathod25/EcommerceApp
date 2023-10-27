@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200;400;600&display=swap');
+
+
+.orders {
+    width: 100%;
+    font-family: 'Martian Mono', monospace;
+
+    .orders-content {
+        width: 90%;
+        margin: 100px auto;
+
+        .head {
+            width: 85%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            gap: 150px;
+
+            span {
+                font-size: 22px;
+            }
+        }
+
+        .flex {
+            display: flex;
+            margin-top: 30px;
+            align-items: center;
+        }
+
+        .title {
+            h1 {
+                font-size: 48px;
+                text-align: center;
+                font-family: 'Martian Mono', monospace;
+                margin-bottom: 30px;
+            }
+        }
+
+        .order-id,
+        .order,
+        .price,
+        .status,
+        .action {
+            margin: 0-auto;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+            justify-content: space-between;
+
+            span {
+                font-size: 22px;
+            }
+
+            img {
+                width: 200px;
+                border-radius: 8px;
+            }
+        }
+    }
+}

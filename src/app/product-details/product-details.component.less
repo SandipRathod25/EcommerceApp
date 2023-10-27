@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200;400;600&display=swap');
+
+.product {
+    width: 100%;
+
+    h2 {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 28px;
+        font-weight: bolder;
+        color: darkred;
+        font-family: 'Martian Mono', monospace;
+    }
+
+    .product-content {
+        width: 70%;
+        margin: 30px auto;
+        display: flex;
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+
+
+
+        .image {
+            width: 50%;
+
+            img {
+                width: 100%;
+                border-radius: 8px;
+            }
+        }
+
+        .content {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 15px;
+            padding: 0 10px 0 50px;
+            justify-content: center;
+
+            @media(max-width:1400px) {
+                width: 100%;
+                padding: 20px-0;
+            }
+
+            .name,
+            .price,
+            .category {
+                font-size: 22px;
+                font-family: 'Martian Mono', monospace;
+            }
+
+            .desc {
+                font-size: 22px;
+                font-family: 'Martian Mono', monospace;
+                line-height: 25px;
+            }
+
+            .color {
+                font-size: 22px;
+                font-family: 'Martian Mono', monospace;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                .circle {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 95px;
+                    border: 1px solid grey;
+                }
+            }
+
+            .bottom {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+
+
+
+                button {
+                    border: none;
+                    padding: 10px 20px;
+                    color: white;
+                }
+
+                .btn {
+                    display: flex;
+                    align-items: start;
+                    gap: 20px;
+                    padding: 0;
+
+                    button {
+                        background-color: #6e7051;
+
+                        &:hover {
+                            background-color: black;
+                        }
+
+                    }
+                }
+
+                .quantity {
+
+
+                    button {
+                        padding: 12px 20px;
+                        color: black;
+                        border: 1px solid grey;
+                    }
+
+                    input {
+                        border: 1px solid grey;
+                        width: 50px;
+                        text-align: center;
+                        padding: 12px 20px;
+                    }
+
+                }
+            }
+        }
+    }
+}

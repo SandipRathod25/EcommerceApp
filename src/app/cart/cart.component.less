@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200;400;600&display=swap');
+
+
+.cart {
+    width: 100%;
+    font-family: 'Martian Mono', monospace;
+
+    .cart-content {
+        width: 90%;
+        margin: 50px auto;
+
+        .title {
+            h2 {
+                font-family: 'Martian Mono', monospace;
+                font-weight: bold;
+                font-size: 48px;
+                text-align: center;
+            }
+        }
+
+        .content {
+            border: 1px solid rgb(204, 201, 201);
+            border-radius: 0px 0 8px 8px;
+
+            .cart-nav {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: #f1f1ef;
+                padding: 10px 20px;
+            }
+
+            .cart-data {
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .image {
+                    display: flex;
+                    gap: 20px;
+                    align-items: center;
+
+                    img {
+                        width: 200px;
+                        height: 200px;
+                        border-radius: 8px;
+                    }
+                }
+            }
+
+            .name,
+            .total,
+            .remove,
+            .price {
+                font-size: 18px;
+            }
+
+            .quantity {
+                button {
+                    padding: 12px 20px;
+                    color: black;
+                    border: 1px solid grey;
+                }
+
+                input {
+                    border: 1px solid grey;
+                    width: 50px;
+                    text-align: center;
+                    padding: 12px 20px;
+                }
+
+            }
+        }
+
+        .grand-content {
+            width: 50%;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            text-align: center;
+            border: 1px solid rgb(203, 199, 199);
+            opacity: 0.5;
+
+            .cart-total {
+                font-size: 28px;
+                background-color: #f1f1ef;
+                padding: 10px 0;
+            }
+
+            .sub-total {
+                font-size: 18px;
+                display: flex;
+                justify-content: space-around;
+
+                .sub,
+                .tot {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+            }
+
+            .checkout {
+                font-size: 28px;
+                background-color: #6e7051;
+                padding: 10px 0;
+                color: white;
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+    }
+}

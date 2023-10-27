@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200;400;600&display=swap');
+
+.picsum-img-wrapper {
+    width: 100vw;
+    height: 85vh;
+
+    img {
+        width: 100%;
+    }
+}
+
+.product-images {
+    object-fit: cover;
+    width: 100%;
+    filter: brightness(70%)
+}
+
+.main {
+    position: relative;
+    font-family: 'Martian Mono', monospace;
+
+    .popular {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        text-align: center;
+        font-weight: bolder;
+        color: white;
+
+        @media(max-width:1130px) {
+            line-height: 60px;
+            top: 15%;
+        }
+
+        @media(max-width:768px) {
+            display: none;
+        }
+    }
+
+    .content {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        font-weight: bolder;
+        color: white;
+
+        @media(max-width:1000px) {
+            line-height: 60px;
+            top: 70%;
+            font-size: 38px;
+        }
+
+        @media(max-width:768px) {
+            display: none;
+        }
+    }
+}
+
+.home {
+    width: 100%;
+
+    p {
+        text-align: center;
+        font-size: 28px;
+        margin-top: 100px;
+        font-weight: bold;
+    }
+
+    .home-content {
+        width: 90%;
+        margin: 50px auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+
+        .cards {
+            position: relative;
+            flex: 1 1 300px;
+
+
+            .card {
+                background-color: #ffffff;
+                border-radius: 10px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                transition: transform 0.2s ease-in-out;
+                background-color: whitesmoke;
+
+                &:hover {
+                    transform: scale(1.005);
+                    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+                    cursor: pointer;
+
+                    .view,
+                    .cart {
+                        display: block !important;
+                    }
+                }
+
+                .image {
+                    img {
+                        border-radius: 10px;
+                        height: 250px;
+                        width: 100%;
+                    }
+                }
+
+                .text {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    padding: 45px 0;
+
+                    .name,
+                    .price {
+                        text-align: center;
+                        font-size: 18px;
+                        font-weight: bold;
+                        color: darkblue;
+                    }
+                }
+
+                .bottom {
+                    display: flex;
+                    width: 100%;
+                    bottom: 0;
+                    position: absolute;
+                    bottom: 0;
+
+                    .view {
+                        width: 100%;
+                        padding: 10px 20px;
+                        background-color: rgb(52, 51, 51);
+                        text-align: center;
+                        display: none;
+
+                        a {
+                            text-decoration: none;
+                            color: white;
+                        }
+
+                        &:hover {
+                            background-color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

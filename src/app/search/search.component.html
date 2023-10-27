@@ -1,0 +1,18 @@
+<div class="search">
+    <div class="search-content">
+        <div class="cards" *ngFor="let products of searchProductList">
+            <div class="image">
+                <a routerLink="/details/{{products.id}}">
+                    <img src={{products.image}}>
+                </a>
+            </div>
+            <div class="text">
+                <p>Name: {{products.name | titlecase}}</p>
+                <p>Price : {{products.price | currency:'INR'}}</p>
+                <p>Color: {{products.color}}</p>
+                <p>Category : {{products.category}}</p>
+                <p>{{products.desciption}}</p>
+            </div>
+        </div>
+    </div>
+</div>

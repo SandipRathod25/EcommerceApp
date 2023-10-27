@@ -1,0 +1,319 @@
+{
+  "sellers": [
+    {
+      "name": "Sandip",
+      "email": "sandip@gmail.com",
+      "password": "sandip123",
+      "id": 1
+    },
+    {
+      "name": "Vikas",
+      "email": "vikas@gmail.com",
+      "password": "vikas123",
+      "id": 2
+    },
+    {
+      "name": "Pintu Rathod",
+      "email": "pintu@gmail.com",
+      "password": "pintu123",
+      "id": 3
+    },
+    {
+      "name": "Rohit Nagaral",
+      "email": "rohit@gmail.com",
+      "password": "rohit123",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "name": "Fashion Laptop",
+      "price": "82000",
+      "color": "pink",
+      "category": "laptop",
+      "description": "",
+      "image": "https://img.freepik.com/free-photo/cute-woman-bright-hat-purple-blouse-is-leaning-stand-with-dresses-posing-with-package-isolated-background_197531-17610.jpg?size=626&ext=jpg&ga=GA1.1.1501544341.1695617338&semt=ais",
+      "id": 1
+    },
+    {
+      "name": "Shirt Package",
+      "price": "12000",
+      "color": "green",
+      "category": "clothes",
+      "description": "comes with 5 shirts",
+      "image": "https://img.freepik.com/free-photo/happy-couple-having-fun-while-online-shopping-home_637285-12597.jpg?size=626&ext=jpg&ga=GA1.1.1501544341.1695617338&semt=sph",
+      "id": 2
+    },
+    {
+      "name": "womens combo",
+      "price": "1200",
+      "color": "pink",
+      "category": "clothes",
+      "description": "",
+      "image": "https://img.freepik.com/free-photo/online-fashion-shopping-with-computer_23-2150400628.jpg?w=1060&t=st=1695664482~exp=1695665082~hmac=7da98ec868af6c9c41f7050b0ef746c906af40f759e40f295c464bf3317caf78",
+      "id": 3
+    },
+    {
+      "name": "white t-shirt",
+      "price": "800",
+      "color": "yellow",
+      "category": "clothes",
+      "description": "comes with 5 shirts",
+      "image": "https://img.freepik.com/free-photo/portrait-handsome-smiling-model-sexy-stylish-man-dressed-summer-clothes-fashion-hipster-male-posing-near-yellow-wall-studio_158538-22523.jpg?size=626&ext=jpg&ga=GA1.2.1501544341.1695617338&semt=sph",
+      "id": 4
+    },
+    {
+      "name": "pink t-shirt",
+      "price": "1300",
+      "color": "pink",
+      "category": "clothes",
+      "description": "pink branded t-shirt with cool style",
+      "image": "https://img.freepik.com/free-photo/pink-sweater-front_125540-746.jpg?size=626&ext=jpg&ga=GA1.2.1501544341.1695617338&semt=sph",
+      "id": 5
+    },
+    {
+      "name": "black t-shirt",
+      "price": "800",
+      "color": "black",
+      "category": "clothes",
+      "description": "black cool t-shirt",
+      "image": "https://img.freepik.com/free-psd/simple-black-men-s-tee-mockup_53876-57893.jpg?size=626&ext=jpg&ga=GA1.2.1501544341.1695617338&semt=sph",
+      "id": 6
+    },
+    {
+      "name": "cool shoes",
+      "price": 700,
+      "color": "blue",
+      "category": "shoes",
+      "desciption": "blue shoes with style",
+      "image": "https://img.freepik.com/free-photo/pair-trainers_144627-3799.jpg?size=626&ext=jpg&ga=GA1.1.1501544341.1695617338&semt=sph",
+      "id": 7
+    },
+    {
+      "name": "grey shoes",
+      "price": 900,
+      "color": "grey",
+      "category": "shoes",
+      "desciption": "grey shoes with pink color",
+      "image": "https://img.freepik.com/premium-photo/unbranded-modern-sporty-shoes-sneakers-white-isolated_120794-337.jpg?size=626&ext=jpg&ga=GA1.1.1501544341.1695617338&semt=sph",
+      "id": 8
+    },
+    {
+      "name": "white casual",
+      "price": 1100,
+      "color": "white",
+      "category": "shoes",
+      "desciption": "white branded casuals",
+      "image": "https://img.freepik.com/free-photo/one-white-sneaker-shoe-isolated-white_93675-134695.jpg?size=626&ext=jpg&ga=GA1.1.1501544341.1695617338&semt=sph",
+      "id": 9
+    },
+    {
+      "name": "blue casuals shoes",
+      "price": "1500",
+      "color": "darkblue",
+      "category": "shoes",
+      "description": "blue casuals",
+      "image": "https://img.freepik.com/free-photo/men-shoes_1203-8388.jpg?size=626&ext=jpg&ga=GA1.1.1501544341.1695617338&semt=sph",
+      "id": 10
+    },
+    {
+      "name": "i phone 15",
+      "price": "140000",
+      "color": "blue",
+      "category": "mobile",
+      "description": "i phone 15 ",
+      "image": "https://img.freepik.com/premium-psd/realistic-purple-phone-screen-mockup_99366-526.jpg?size=626&ext=jpg&ga=GA1.2.1501544341.1695617338&semt=sph",
+      "id": 11
+    },
+    {
+      "name": "i phone 15 pro",
+      "price": "150000",
+      "color": "green",
+      "category": "mobile",
+      "description": "light pink i phone 15 pro",
+      "image": "https://img.freepik.com/free-vector/change-our-date-postponed-wedding-phone-app_52683-39982.jpg?size=626&ext=jpg&ga=GA1.1.1501544341.1695617338&semt=sph",
+      "id": 12
+    },
+    {
+      "name": "white matt laptop",
+      "price": "98000",
+      "color": "pink",
+      "category": "laptop",
+      "description": "white matt laptop with good speed",
+      "image": "https://img.freepik.com/free-psd/laptop-blue-background-mock-up_1022-178.jpg?size=626&ext=jpg&ga=GA1.1.1501544341.1695617338&semt=sph",
+      "id": 13
+    },
+    {
+      "name": "black laptop",
+      "price": "99000",
+      "color": "grey",
+      "category": "laptop",
+      "description": "comes with 5 shirts",
+      "image": "https://img.freepik.com/free-photo/laptop-balancing-with-purple-background_23-2150271750.jpg?size=626&ext=jpg&ga=GA1.1.1501544341.1695617338&semt=sph",
+      "id": 14
+    },
+    {
+      "name": "laptop",
+      "price": "12000",
+      "color": "grey",
+      "category": "laptop",
+      "description": "comes with 5 shirts",
+      "image": "https://img.freepik.com/free-photo/laptop-balancing-with-purple-background_23-2150271750.jpg?size=626&ext=jpg&ga=GA1.1.1501544341.1695617338&semt=sph",
+      "id": 15
+    },
+    {
+      "name": "women dress styles",
+      "price": "2000",
+      "color": "red",
+      "category": "clothes",
+      "description": "comes with 5 shirts",
+      "image": "https://img.freepik.com/free-photo/cute-woman-bright-hat-purple-blouse-is-leaning-stand-with-dresses-posing-with-package-isolated-background_197531-17610.jpg?size=626&ext=jpg&ga=GA1.1.1501544341.1695617338&semt=ais",
+      "id": 16
+    },
+    {
+      "name": "girls shop",
+      "price": "2500",
+      "color": "red",
+      "category": "girls top",
+      "description": "",
+      "image": "https://img.freepik.com/free-photo/online-fashion-shopping-with-computer_23-2150400628.jpg?w=1060&t=st=1695664482~exp=1695665082~hmac=7da98ec868af6c9c41f7050b0ef746c906af40f759e40f295c464bf3317caf78",
+      "id": 17
+    }
+  ],
+  "users": [
+    {
+      "name": "Sandip Rathod",
+      "email": "sandip@gmail.com",
+      "password": "sandip123",
+      "id": 1
+    },
+    {
+      "name": "Pintu Rathod",
+      "email": "pintu@gmail.com",
+      "password": "pintu123",
+      "id": 2
+    },
+    {
+      "name": "Rahil MD",
+      "email": "rahil@gmail.com",
+      "password": "rahil123",
+      "id": 3
+    },
+    {
+      "name": "Bakra",
+      "email": "bakra@gmail.com",
+      "password": "123",
+      "id": 4
+    }
+  ],
+  "cart": [
+    {
+      "name": "Shirt Package",
+      "price": "12000",
+      "color": "green",
+      "category": "clothes",
+      "description": "comes with 5 shirts",
+      "image": "https://img.freepik.com/free-photo/happy-couple-having-fun-while-online-shopping-home_637285-12597.jpg?size=626&ext=jpg&ga=GA1.1.1501544341.1695617338&semt=sph",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 2,
+      "id": 1
+    },
+    {
+      "name": "cool shoes",
+      "price": 700,
+      "color": "blue",
+      "category": "shoes",
+      "desciption": "blue shoes with style",
+      "image": "https://img.freepik.com/free-photo/pair-trainers_144627-3799.jpg?size=626&ext=jpg&ga=GA1.1.1501544341.1695617338&semt=sph",
+      "quantity": 1,
+      "userId": 2,
+      "productId": 7,
+      "id": 2
+    },
+    {
+      "name": "white casual",
+      "price": 1100,
+      "color": "white",
+      "category": "shoes",
+      "desciption": "white branded casuals",
+      "image": "https://img.freepik.com/free-photo/one-white-sneaker-shoe-isolated-white_93675-134695.jpg?size=626&ext=jpg&ga=GA1.1.1501544341.1695617338&semt=sph",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 9,
+      "id": 3
+    },
+    {
+      "name": "black t-shirt",
+      "price": "800",
+      "color": "black",
+      "category": "clothes",
+      "description": "black cool t-shirt",
+      "image": "https://img.freepik.com/free-psd/simple-black-men-s-tee-mockup_53876-57893.jpg?size=626&ext=jpg&ga=GA1.2.1501544341.1695617338&semt=sph",
+      "quantity": 4,
+      "userId": 4,
+      "productId": 6,
+      "id": 4
+    },
+    {
+      "name": "blue casuals shoes",
+      "price": "1500",
+      "color": "darkblue",
+      "category": "shoes",
+      "description": "blue casuals",
+      "image": "https://img.freepik.com/free-photo/men-shoes_1203-8388.jpg?size=626&ext=jpg&ga=GA1.1.1501544341.1695617338&semt=sph",
+      "quantity": 1,
+      "userId": 2,
+      "productId": 10,
+      "id": 5
+    },
+    {
+      "name": "blue casuals shoes",
+      "price": "1500",
+      "color": "darkblue",
+      "category": "shoes",
+      "description": "blue casuals",
+      "image": "https://img.freepik.com/free-photo/men-shoes_1203-8388.jpg?size=626&ext=jpg&ga=GA1.1.1501544341.1695617338&semt=sph",
+      "quantity": 1,
+      "userId": 2,
+      "productId": 10,
+      "id": 6
+    },
+    {
+      "name": "white t-shirt",
+      "price": "800",
+      "color": "yellow",
+      "category": "clothes",
+      "description": "comes with 5 shirts",
+      "image": "https://img.freepik.com/free-photo/portrait-handsome-smiling-model-sexy-stylish-man-dressed-summer-clothes-fashion-hipster-male-posing-near-yellow-wall-studio_158538-22523.jpg?size=626&ext=jpg&ga=GA1.2.1501544341.1695617338&semt=sph",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 4,
+      "id": 8
+    },
+    {
+      "name": "Fashion Laptop",
+      "price": "82000",
+      "color": "pink",
+      "category": "laptop",
+      "description": "",
+      "image": "https://img.freepik.com/free-photo/cute-woman-bright-hat-purple-blouse-is-leaning-stand-with-dresses-posing-with-package-isolated-background_197531-17610.jpg?size=626&ext=jpg&ga=GA1.1.1501544341.1695617338&semt=ais",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 1,
+      "id": 9
+    },
+    {
+      "name": "Shirt Package",
+      "price": "12000",
+      "color": "green",
+      "category": "clothes",
+      "description": "comes with 5 shirts",
+      "image": "https://img.freepik.com/free-photo/happy-couple-having-fun-while-online-shopping-home_637285-12597.jpg?size=626&ext=jpg&ga=GA1.1.1501544341.1695617338&semt=sph",
+      "quantity": 1,
+      "userId": 2,
+      "productId": 2,
+      "id": 10
+    }
+  ]
+}

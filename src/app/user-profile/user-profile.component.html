@@ -1,0 +1,21 @@
+<div class="profile">
+    <div class="profile-content">
+        <div class="title">
+            <p>Seller Profile</p>
+        </div>
+        <div class="image">
+            <img src="https://img.freepik.com/free-photo/handsome-smiling-young-man-sitting-office-coworking_171337-17642.jpg?size=626&ext=jpg&ga=GA1.2.1501544341.1695617338&semt=sph"
+                alt="user-profile">
+        </div>
+        <div class="data">
+            <p>Seller Name : {{name | titlecase}}</p>
+            <p>Email : {{email}}</p>
+            <p>Contact : +918965XXXX56</p>
+            <p>Country : India</p>
+        </div>
+        <div class="btn">
+            <button class="one">Edit</button>
+            <button class="two" [mat-dialog-close]="true">Close</button>
+        </div>
+    </div>
+</div>

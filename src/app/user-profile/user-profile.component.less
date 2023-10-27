@@ -1,0 +1,59 @@
+.profile {
+    width: 100%;
+
+    .profile-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 80px;
+
+        .title {
+            p {
+                color: purple;
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+
+        .image {
+            img {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            }
+        }
+
+        .data {
+            margin-top: 50px;
+            font-size: 18px;
+            color: darkcyan;
+            text-align: center;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+
+            button {
+                border: none;
+                padding: 10px 50px;
+                color: white;
+                border-radius: 4px;
+
+                &:hover {
+                    background-color: black;
+                }
+            }
+
+            .one {
+                background-color: green;
+            }
+
+            .two {
+                background-color: red;
+            }
+        }
+    }
+}

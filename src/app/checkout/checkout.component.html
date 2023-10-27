@@ -1,0 +1,24 @@
+<div class="checkout">
+    <div class="checkout-content">
+        <div class="title">
+            <h2>Checkout</h2>
+        </div>
+        <form #checkout="ngForm" (ngSubmit)="orderNow(checkout.value)">
+            <div class="customer-details">
+                <span>Customer Information</span>
+                <input type="text" name="name" placeholder="Enter your name" ngModel />
+                <input type="email" name="email" placeholder="Enter your email" ngModel />
+                <input type="text" name="address" placeholder="Enter your address" ngModel />
+                <input type="number" name="pincode" placeholder="Enter your pincode" ngModel />
+            </div>
+
+            <div class="order-details">
+                <div class="total">
+                    <span>Total Amount</span>
+                    <span>18600</span>
+                </div>
+                <button><a routerLink="/order">Pay Now</a></button>
+            </div>
+        </form>
+    </div>
+</div>

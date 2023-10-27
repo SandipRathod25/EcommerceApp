@@ -1,0 +1,30 @@
+<div class="lists">
+    <div class="lists-content">
+        <div class="cards" *ngFor="let product of productList">
+            <div class="image">
+                <img src={{product.image}} alt={{product.name}}>
+            </div>
+            <div class="name">
+                <span>{{product.name |titlecase}}</span>
+            </div>
+            <div class="price">
+                <span>{{product.price | currency:'INR'}}</span>
+            </div>
+            <div class="color">
+                <span>{{product.color |titlecase}}</span>
+            </div>
+            <div class="category">
+                <span>{{product.category | titlecase}}</span>
+            </div>
+            <div class="view">
+                <span (click)="deleteProduct(product.id)">Delete</span>
+            </div>
+            <div class="update">
+                <a routerLink="/update-product/{{product.id}}">Update </a>
+            </div>
+        </div>
+    </div>
+    <div class="message">
+        <span>{{message}}</span>
+    </div>
+</div>

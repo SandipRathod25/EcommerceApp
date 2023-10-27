@@ -1,0 +1,42 @@
+<div class="main">
+    <ngb-carousel *ngIf="popularProductData">
+        <ng-template *ngFor="let product of popularProductData" ngbSlide>
+            <div class="picsum-img-wrapper">
+                <a routerLink="/details/{{product.id}}"> <img class="product-images" src={{product.image}} /></a>
+            </div>
+            <div class="content">
+                <p>{{product.name | titlecase}}</p>
+                <p>{{product.price | currency:'INR'}}</p>
+            </div>
+            <div class="popular">
+                <p>Popular Products</p>
+            </div>
+        </ng-template>
+    </ngb-carousel>
+</div>
+
+<div class="home">
+    <p>Trending Products</p>
+    <div class="home-content">
+        <div class="cards" *ngFor="let cards of trendingProduct">
+            <div class="card">
+                <div class="image">
+                    <img src="{{cards.image}}">
+                </div>
+                <div class="text">
+                    <div class="name">
+                        <span>{{cards.name | titlecase}}</span>
+                    </div>
+                    <div class="price">
+                        <span>{{cards.price | currency:'INR'}}</span>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="view">
+                        <a routerLink="/details/{{cards.id}}">Quick View</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

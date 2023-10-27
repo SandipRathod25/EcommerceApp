@@ -1,0 +1,35 @@
+<section class="seller">
+    <div class="seller-content">
+        <div class="title">
+            <h2>Update Product</h2>
+            <span style="color:rgb(18, 206, 18); font-size:20 px">{{message}}</span>
+        </div>
+        <form class="form-container" #addProduct="ngForm" (ngSubmit)="updateProducts(addProduct.value)">
+            <div class="field">
+                <label>Enter Product Name</label>
+                <input type="text" name="name" ngModel="{{productData?.name}}" />
+            </div>
+            <div class="field">
+                <label>Enter Product Price</label>
+                <input type="number" name="price" ngModel="{{productData?.price}}" />
+            </div>
+            <div class="field">
+                <label>Enter Product Color</label>
+                <input type="text" name="color" ngModel="{{productData?.color}}" />
+            </div>
+            <div class="field">
+                <label>Enter Product Category</label>
+                <input type="text" name="category" ngModel="{{productData?.category}}" />
+            </div>
+            <div class="field hide">
+                <label>Enter Product Decsription</label>
+                <input type="text" name="description" ngModel="{{productData?.desciption}}" />
+            </div>
+            <div class="field">
+                <label>Add Product Image</label>
+                <input type="text" name="image" ngModel="{{productData?.image}}" />
+            </div>
+            <button>Update Product</button>
+        </form>
+    </div>
+</section>

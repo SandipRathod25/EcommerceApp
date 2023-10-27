@@ -1,0 +1,57 @@
+<div class="cart">
+    <div class="cart-content">
+        <div class="title">
+            <h2>Cart Details</h2>
+        </div>
+        <div class="content">
+            <div class="cart-nav">
+                <p>Product</p>
+                <p>Price</p>
+                <p>Quantity</p>
+                <p>Subtotal</p>
+                <p>Remove</p>
+            </div>
+            <div class="cart-data" *ngFor="let cart of cartData">
+                <div class="image">
+                    <img src={{cart.image}} alt="">
+                    <div class="name">
+                        <p>{{cart.name}}</p>
+                    </div>
+                </div>
+
+                <div class="price">
+                    <p>{{cart.price}}</p>
+                </div>
+                <div class="quantity">
+                    <button>-</button>
+                    <input type="text" value={{cart.quantity}}>
+                    <button>+</button>
+                </div>
+                <div class="total">
+                    <p>{{cart.price}}</p>
+                </div>
+                <div class="remove">
+                    <p>remove item</p>
+                </div>
+            </div>
+        </div>
+        <div class="grand-content">
+            <div class="cart-total">
+                <p>Cart totals</p>
+            </div>
+            <div class="sub-total">
+                <div class="sub">
+                    <p>Subtotal</p>
+                    <p>Total</p>
+                </div>
+                <div class="tot">
+                    <p>1200</p>
+                    <p>1500</p>
+                </div>
+            </div>
+            <div class="checkout" (click)="checkout()">
+                <p>Proceed to checkout</p>
+            </div>
+        </div>
+    </div>
+</div>
